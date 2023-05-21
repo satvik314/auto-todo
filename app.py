@@ -1,6 +1,5 @@
 import streamlit as st
 from langchain import OpenAI, LLMChain, PromptTemplate
-import pandas as pd
 import os
 from dotenv import load_dotenv
 load_dotenv()
