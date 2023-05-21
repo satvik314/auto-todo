@@ -1,8 +1,8 @@
 import streamlit as st
 from langchain import OpenAI, LLMChain, PromptTemplate
 import os
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
