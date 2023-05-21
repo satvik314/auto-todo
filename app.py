@@ -33,7 +33,7 @@ def add_task(new_task):
 
 # creating a form for adding tasks
 with st.form("add_task_form"):
-    st.session_state.new_task = st.text_input("Enter a new task", value = st.session_state.new_task, placeholder="enter the task", label_visibility= "collapsed")
+    st.session_state.new_task = st.text_input("Enter a new task", value = st.session_state.new_task, placeholder="start using! enter a task", label_visibility= "collapsed")
     add_button = st.form_submit_button("Add Task")
 
 # adding a new task using add_task function
