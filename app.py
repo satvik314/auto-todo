@@ -119,8 +119,6 @@ st.write("")
 st.write("")
 st.write("")
 st.write("")
-st.write("")
-st.write("")
 
 linkedin_url = "https://www.linkedin.com/in/satvik-paramkusham-76a33610a/"
 st.markdown(f"Reach out to me on [LinkedIn]({linkedin_url})")
